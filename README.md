@@ -1,9 +1,10 @@
 First we generate a C program on which we want to do Cross compilation.
 
 Then We generate Assembly Code of this C program using below Command in terminal:-
-        "gcc -S -o assembly.s input.c -o1"
+        
+        gcc -S -o assembly.s input.c -o1
 
-        -o1 will vary in -o2 and -o3 according to optimization we want to apply
+        "-o1 will vary in -o1, -o2 and -o3 according to optimization we want to apply"
 
 Then We convert Assembly.s to Assemb.txt by using ass_to_text.py file
 
